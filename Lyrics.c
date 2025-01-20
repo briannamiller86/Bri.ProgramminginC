@@ -1,4 +1,4 @@
-1#include <stdio.h>
+#include <stdio.h>
 
 void displayLyrics(int testNumber) {
     switch(testNumber) {
