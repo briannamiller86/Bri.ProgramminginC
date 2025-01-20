@@ -11,7 +11,11 @@ void runTest(int testNumber) {
     
     printf("Enter name: ");
     fgets(name, sizeof(name), stdin);
+<<<<<<< HEAD
         // Remove newline character if present
+=======
+    // Remove newline character if present
+>>>>>>> 8a7b1ed40c0cf2630432798c29a275356304ce3e
     for (int i = 0; name[i] != '\0'; i++) {
         if (name[i] == '\n') {
             name[i] = '\0';
